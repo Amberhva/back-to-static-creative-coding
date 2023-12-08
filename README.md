@@ -15,8 +15,6 @@ Ontwerp en maak creatieve oplossingen voor de interface.
 ## Kenmerken ✅
 **TOOLS 🧰:**
 * VSCode
-* Miro
-* Figma
   
 **GEBRUIKTE TECHNIEKEN 🛠️:**
 * Svelte
