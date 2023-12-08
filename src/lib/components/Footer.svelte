@@ -21,7 +21,7 @@
 
 <svg>
   <defs>
-    <filter id="goo">
+    <filter id="bubble">
       <feGaussianBlur in="SourceGraphic"
       stdDeviation="0" />
       <feColorMatrix in="name" mode="matrix"
@@ -33,6 +33,7 @@
     </filter>
   </defs>
 </svg>
+
   <article>
     <h2>SPATwater</h2>
     <h3>Een nieuwe generatie hydrologen</h3>
@@ -129,14 +130,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
-  
-.container {
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
-    filter: url(#goo);
+    filter: url(#bubble);
   }
 
   .particle {
