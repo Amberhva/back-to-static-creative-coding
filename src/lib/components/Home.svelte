@@ -8,6 +8,47 @@
   <h2 class="title-down">SPATWATER \\</h2>
   
   <h3 class="sub-sub-title">CONCREET OP WATER EN BODEM</h3>
+
+  <div class="dots-right">
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+    <div class="dot-right"></div>
+  </div>
+
+  <div class="dots-left">
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+    <div class="dot-left"></div>
+  </div>
+  
 </main>
 
 <style>
@@ -67,5 +108,45 @@ span {
     justify-self: start; 
     align-self: end;
     margin-left: -5.6em;
+}
+
+/* For the top right corner dots */
+.dots-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1em);
+  grid-template-rows: 1em 1em 1em;
+  grid-gap: 1em;
+  margin-right: 2em;
+}
+
+.dot-right {
+  background-color: black;
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  margin-top: 2em;
+}
+
+/* For the bottom left corner dots */
+.dots-left {
+  position: fixed;
+  bottom: 0; 
+  left: 0; 
+  display: grid;
+  grid-template-columns: repeat(5, 1em);
+  grid-template-rows: 1em 1em 1em;
+  grid-gap: 1em;
+  margin-left: 2.6em; 
+  margin-bottom: 2em;
+}
+
+.dot-left {
+  background-color: black;
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
 }
 </style>
