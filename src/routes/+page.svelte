@@ -2,7 +2,7 @@
   // export let data
 
   // import Navbar from "../lib/components/Navbar.svelte";
-  // import Home from "../lib/components/Home.svelte";
+  import Home from "../lib/components/Home.svelte";
   // import Over from "../lib/components/Over.svelte";
   // import Expertise from "../lib/components/Expertise.svelte";
   // import Klimaatadaptatie from "../lib/components/Klimaatadaptatie.svelte";
@@ -13,12 +13,12 @@
   // import Team from "../lib/components/Team.svelte";
   // import Contact from "../lib/components/Contact.svelte";
   // import Partners from "../lib/components/Partners.svelte";
-  import Footer from "../lib/components/Footer.svelte";
+  // import Footer from "../lib/components/Footer.svelte";
 </script>
 
-<!-- <Navbar />
+<!-- <Navbar /> -->
 <Home />
-<Over /> -->
+<!-- <Over /> -->
 <!-- <Expertise />
 <Klimaatadaptatie />
 <Waterkwaliteit />
@@ -28,4 +28,4 @@
 <Team {data} />
 <Contact />
 <Partners {data} /> -->
-<Footer />
+<!-- <Footer /> -->
